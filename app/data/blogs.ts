@@ -1,3 +1,3 @@
 import { Blog } from '@/types/blog';
 
-export let blogs: Blog[] = [];
+export const blogs: Blog[] = [];

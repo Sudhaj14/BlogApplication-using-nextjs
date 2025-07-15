@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Blog } from '@/types/blog';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 export default function Home() {
   const [blogs, setBlogs] = useState<Blog[]>([]);
